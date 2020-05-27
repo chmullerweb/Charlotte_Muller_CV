@@ -1,0 +1,75 @@
+/*/////////////////////// GRID //////////////////*/
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, auto);
+    grid-gap: 32x;
+}
+
+/*------- COLONNES ----------*/
+.col-st1{
+    grid-column-start: 1;
+}
+
+.col-st2 {
+    grid-column-start: 2;
+}
+
+.col-st3 {
+    grid-column-start: 3;
+}
+
+.col-st5 {
+    grid-column-start: 5;
+}
+
+.col3 {
+    grid-column-end: span 3;
+}
+
+.col6 {
+    grid-column-end: span 6;
+}
+
+.col12 {
+    grid-column-end: span 12;
+}
+
+/*------- LIGNES ----------*/
+
+.row2 {
+    grid-row-start: span 2;
+}
+
+.row3 {
+    grid-row-start: 3;
+}
+
+.row4 {
+    grid-row-start: 4;
+}
+
+.row5 {
+    grid-row-start: 5;
+}
+
+.row6 {
+    grid-row-start: 6;
+}
+
+.row8 {
+    grid-row-start: 8;
+}
+
+.row9 {
+    grid-row-start: 9;
+}
+
+.row10 {
+    grid-row-start: 10;
+}
+
+.row11 {
+    grid-row-start: 11;
+}
