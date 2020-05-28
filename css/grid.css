@@ -1,14 +1,21 @@
 /*/////////////////////// GRID //////////////////*/
 
-.grid {
+.grid1 {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(12, auto);
-    grid-gap: 32x;
+    grid-gap: 32px;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, auto);
+    grid-gap: 32px;
 }
 
 /*------- COLONNES ----------*/
-.col-st1{
+/*.col-st1{
     grid-column-start: 1;
 }
 
@@ -22,7 +29,7 @@
 
 .col-st5 {
     grid-column-start: 5;
-}
+}*/
 
 .col3 {
     grid-column-end: span 3;
@@ -38,8 +45,12 @@
 
 /*------- LIGNES ----------*/
 
+.row1 {
+    grid-row-start: 1;
+}
+
 .row2 {
-    grid-row-start: span 2;
+    grid-row-start: 2;
 }
 
 .row3 {
@@ -58,6 +69,10 @@
     grid-row-start: 6;
 }
 
+.row7 {
+    grid-row-start: 6;
+}
+
 .row8 {
     grid-row-start: 8;
 }
@@ -72,4 +87,14 @@
 
 .row11 {
     grid-row-start: 11;
+}
+
+.row12 {
+    grid-row-start: 11;
+}
+
+/*-------------*/
+
+.row-sp2{
+    grid-row-end: span 2;
 }

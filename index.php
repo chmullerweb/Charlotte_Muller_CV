@@ -8,6 +8,8 @@
     <!-- ////   CSS   //// -->
     <link rel="stylesheet" href="http://localhost/coursphp/CV/css/cssreset.css">
     <link rel="stylesheet" href="http://localhost/coursphp/CV/css/grid.css">
+    <link rel="stylesheet" href="http://localhost/coursphp/CV/css/style.css">
+
 
     <!-- ////   PATTERN   //// -->
     <link href="https://unpkg.com/pattern.css" rel="stylesheet">
@@ -21,11 +23,23 @@
 
 <body class="grid">
     
-    <!--header--> 
     
-    <div class="header row1 col3">
+       
+    <header class="header row1 row-sp2 col3">
                 
+    </header>
+    
+    <div class="row1 col6 claim">
+        
     </div>
+    
+    <div class="hello row1 row-sp2 col3">
+        
+    </div>
+    
+    <div class="loisirs row2 col6">
+        
+    </div>-->
     
 </body>
 </html>
