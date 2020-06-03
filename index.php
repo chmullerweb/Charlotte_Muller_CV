@@ -26,23 +26,41 @@
     
        
     <header class="header row1 row-sp2 col3">
-                
+               <h1>Charlotte Muller</h1> 
+               <h2>Développeuse Web Front-End</h2>    
+
     </header>
     
     <div class="row1 col6 claim">
+        <p> Vers l'infini et au-delà</p>
+    </div>
+    
+    <div class="hello row1 row-sp2 col-st10 col3">
         
     </div>
     
-    <div class="hello row1 row-sp2 col3">
+    <div class="loisirs row2 col4">
+        <ul>
+            <li>Randonée</li>
+            <li>Course à pied</li>
+            <li>Cuisine</li>
+            <li>Le Catch</li>
+            <li>Mon chien</li>
+            <li>Shopping d'occasion</li>
+            <li>La bière</li>
+            <li>Le Perrier menthe</li>
+        </ul>
+    </div>
+    
+    <div class="form_exp row2 row-sp2 col-st8 col5">
         
     </div>
     
-    <div class="loisirs row2 col6">
+    <div class="api_map row3 col7">
         
     </div>
 
-<h1>Charlotte Muller</h1>
 
-<h2>Développeuse Web Front-End</h2>    
+
 </body>
 </html>

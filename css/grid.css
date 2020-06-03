@@ -1,21 +1,16 @@
 /*/////////////////////// GRID //////////////////*/
 
-.grid1 {
+.grid {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(12, auto);
     grid-gap: 32px;
+    margin: 32px;
 }
 
-.grid2 {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(12, auto);
-    grid-gap: 32px;
-}
 
 /*------- COLONNES ----------*/
-/*.col-st1{
+.col-st1{
     grid-column-start: 1;
 }
 
@@ -29,14 +24,34 @@
 
 .col-st5 {
     grid-column-start: 5;
-}*/
+}
+
+.col-st8 {
+    grid-column-start: 8;
+}
+
+.col-st10 {
+    grid-column-start: 10;
+}
 
 .col3 {
     grid-column-end: span 3;
 }
 
+.col4 {
+    grid-column-end: span 4;
+}
+
+.col5 {
+    grid-column-end: span 5;
+}
+
 .col6 {
     grid-column-end: span 6;
+}
+
+.col7 {
+    grid-column-end: span 7;
 }
 
 .col12 {
