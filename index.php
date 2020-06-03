@@ -39,7 +39,10 @@
     
     <div class="loisirs row2 col6">
         
-    </div>-->
-    
+    </div>
+
+<h1>Charlotte Muller</h1>
+
+<h2>Développeuse Web Front-End</h2>    
 </body>
 </html>
